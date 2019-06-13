@@ -63,11 +63,13 @@ public class Customer {
                 //Q4
                 
 		/*
-		*	If Category of movie is REGULAR then the rent is Rs. 2 for 2 days. If Movie is rented for more than 2 
-                     days then the rent is exceeded by Rs. 1.5 per day.
-		*	If Category of movie is NEW_RELEASE then rent is Rs. 3 per day. Increase the rent as number of days increases.
-		*	If Category of movie is CHILDREN, then the rent is Rs. 1.5 or 3 days. 
-                       If number of days is more than 3 then increase the rent by Rs. 1.5 each day
+		*	The rent is Rs. 2 for 2 days for REGULAR . If days are > 2 
+                     then the rent is exceeded by Rs. 1.5 per day.
+                
+		*	The rent is Rs. 3 per day for NEW_RELEASE .The rent will increase as the number of days increases.
+		*	, The rent is Rs. 1.5 for 3 days for CHILDREN. 
+                       If number of days is more than 3 then increase the rent by Rs 1.5 each day
+                
 		*   @pram thisamount() and each() calculate the rent of the movie according to days
 		*   @return return the total amount of the movie which rented. 
                 
