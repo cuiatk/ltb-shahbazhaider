@@ -9,11 +9,27 @@ public class Driver {
 	 * after completing each TODO task commit and push to remote repository with commit message
 	 * 		"TODO 'TASK NUMBER' Complete" e.g. in this case "TODO 1 COMPLETED"
 	 */
+
+	public static void main(String[] args) 
+{
+    
+    
+}
+	//Q2	
+        String input = "The <b>Good</b>, the <i>Bad</i>, and the <strong>Ugly</strong>";
+             
+                
+           String noHTMLString = input.replaceAll("\\<.*?>","");
+		
+	System.out.println(noHTMLString);
+
+
 	public static void main(String[] args) {
 		String input = "The <b>Good</b>, the <i>Bad</i>, and the <strong>Ugly</strong>";
 		String regex = "TODO 1";
 		String output = input.replaceAll(regex, "");
 		System.out.println(output);
+
 		
 		
 		Movie m1 = new Movie("Spancer", 0);
